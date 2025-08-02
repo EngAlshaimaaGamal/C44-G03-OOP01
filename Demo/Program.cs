@@ -110,12 +110,47 @@ namespace Demo
 
             #region Nullable reference type
 
-         //  //#nullable disable
-         //   string name1 = null!;
-         //   Console.WriteLine(name1);
-         //// #nullable enable
-         //   String ? name2 = null;
-         //   Console.Write(name2);
+            //  //#nullable disable
+            //   string name1 = null!;
+            //   Console.WriteLine(name1);
+            //// #nullable enable
+            //   String ? name2 = null;
+            //   Console.Write(name2);
+
+
+
+
+
+            #endregion
+
+            #region  null condational | propagation operator
+
+            //int [] number =null;
+            //int legth = number?.Length ?? 0; // null conditional and coalescing operator
+
+            //int? legth2 = number?.Length ; // null conditional and coalescing operator
+            //Console.WriteLine(legth);
+
+
+            //for (int i = 0; i < number?.Length; i++)
+            //{ 
+            //  Console.WriteLine(number[i]);
+            
+            //}
+
+
+
+            //if (number is not null)
+            //{
+            //    for (int i = 0; i < number.Length; i++)
+            //    {
+            //        Console.WriteLine(number[i]);
+
+            //    }
+
+
+            //} // add any actions more 
+           
 
 
 
