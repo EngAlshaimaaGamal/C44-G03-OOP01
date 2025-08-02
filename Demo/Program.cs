@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿//# nullable disable
+
+namespace Demo
 {
     internal class Program
     {
@@ -99,6 +101,24 @@
 
 
             #endregion
+
+
+            #endregion
+
+
+
+
+            #region Nullable reference type
+
+         //  //#nullable disable
+         //   string name1 = null!;
+         //   Console.WriteLine(name1);
+         //// #nullable enable
+         //   String ? name2 = null;
+         //   Console.Write(name2);
+
+
+
 
 
             #endregion
