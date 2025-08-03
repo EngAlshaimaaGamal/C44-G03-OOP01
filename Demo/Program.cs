@@ -135,7 +135,7 @@ namespace Demo
             //for (int i = 0; i < number?.Length; i++)
             //{ 
             //  Console.WriteLine(number[i]);
-            
+
             //}
 
 
@@ -150,11 +150,14 @@ namespace Demo
 
 
             //} // add any actions more 
-           
 
 
 
 
+
+
+            #endregion
+            #region 
 
             #endregion
 
