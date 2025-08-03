@@ -8,7 +8,7 @@ namespace Assignment
         {
             #region Q1
             //1.	Create an Enum called "WeekDays" with the days of the week (Monday to Sunday) as its members. Then, write a C# program that prints out all the days of the week using this Enum.
-          
+
 
             //WeekDays Days = new WeekDays();
 
@@ -25,7 +25,91 @@ namespace Assignment
             //Console.WriteLine(Days); // Friday
             //Days = (WeekDays)6;
             //Console.WriteLine(Days); // Saturday    
-        
+
+
+            #endregion
+
+            #region Q2
+            //2.	Create an Enum called "Seas on" with the four seasons (Spring, Summer, Autumn, Winter) as its members. Write a C# program that takes a season name as input from the user and displays the corresponding month range for that season. Note range for seasons ( spring march to may , summer June to August , autumn September to November , winter December to February)
+            //
+
+            //FourSeasons season;
+            //bool isParsed;
+
+            //do
+            //{
+            //    Console.WriteLine("Enter a season (Spring, Summer, Autumn, Winter):");
+            //    isParsed = Enum.TryParse<FourSeasons>(Console.ReadLine(), true, out season);
+
+            //} while (!isParsed);
+
+            //FourSeasons season1 = season;
+
+
+
+
+            //using switch case 
+            //switch (season1) 
+            //{
+            //  case FourSeasons.Spring:
+            //        Console.WriteLine("Spring: March to May");
+            //        break;
+            //    case FourSeasons.Summer:
+            //        Console.WriteLine("Summer: June to August");
+            //        break;
+            //    case FourSeasons.Autumn:
+            //        Console.WriteLine("Autumn: September to November");
+            //        break;
+            //    case FourSeasons.Winter:
+            //        Console.WriteLine("Winter: December to February");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid season entered.");
+            //        break;
+
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //usng if else if   
+
+            //if (season1 == FourSeasons.Spring)
+            //{
+            //    Console.WriteLine("Spring: March to May");
+            //}
+            //else if (season1 == FourSeasons.Summer)
+            //{
+            //    Console.WriteLine("Summer: June to August");
+            //}
+            //else if (season1 == FourSeasons.Autumn)
+            //{
+            //    Console.WriteLine("Autumn: September to November");
+            //}
+            //else if (season1 == FourSeasons.Winter)
+            //{
+            //    Console.WriteLine("Winter: December to February");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid season entered.");
+            //}
+
+
+
+
+
 
             #endregion
 
