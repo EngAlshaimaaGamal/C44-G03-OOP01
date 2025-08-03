@@ -36,6 +36,25 @@ namespace Demo
             #endregion
 
             #region Example02
+            //Grades Grad01 = new Grades();
+
+            //Grad01 = Grades.A;
+            // using enum
+            // 
+
+            //if (Grad01 == Grades.A|| Grad01 ==Grades.E)
+            //  Console.WriteLine("Bravo");
+            //else
+            //  Console.WriteLine("Try Again");
+
+            // Grad01 = (Grades)4 ;
+
+            //Console.WriteLine(Grad01);
+
+            //Gender Gender01 = new Gender();
+
+            //Gender01 = Gender.Male;
+            //Console.WriteLine(Gender01);
 
 
 
