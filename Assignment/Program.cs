@@ -6,6 +6,31 @@ namespace Assignment
     {
         static void Main(string[] args)
         {
+            #region Q1
+            //1.	Create an Enum called "WeekDays" with the days of the week (Monday to Sunday) as its members. Then, write a C# program that prints out all the days of the week using this Enum.
+          
+
+            //WeekDays Days = new WeekDays();
+
+            //Days =(WeekDays) 1;
+            //Console.WriteLine(Days); // Monday
+
+            //Days = (WeekDays)2; 
+            //Console.WriteLine(Days); // Tuesday 
+            //Days = (WeekDays)3; 
+            //Console.WriteLine(Days); // Wednesday   
+            //Days = (WeekDays)4; 
+            //Console.WriteLine(Days); // Thursday    
+            //Days = (WeekDays)5;
+            //Console.WriteLine(Days); // Friday
+            //Days = (WeekDays)6;
+            //Console.WriteLine(Days); // Saturday    
+        
+
+            #endregion
+
+
+
             #region Q3
 
             //Q3.Assign the following Permissions(Read, write, Delete, Execute) in a form of Enum           .
