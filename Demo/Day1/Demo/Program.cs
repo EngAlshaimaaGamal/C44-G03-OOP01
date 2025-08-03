@@ -1,4 +1,5 @@
 ﻿using common;
+using System.Security;
 
 namespace Demo
 {
@@ -118,8 +119,8 @@ namespace Demo
 
             //    Console.WriteLine("Enter your Grade :");
             //    isParsed = Enum.TryParse<Grades>(Console.ReadLine(), out gradeInput);
-                    
-           
+
+
             //} while (!isParsed);
 
             //std02.Grade = gradeInput;
@@ -141,6 +142,115 @@ namespace Demo
 
             //Console.WriteLine($" welcome  {std02.Name } in Rout with ID {std02.ID} and Grade {std02.Grade}  uour Gender {std02.Gender} and Branch is {std02.Branches}");
 
+
+
+
+
+            #endregion
+
+
+            #region Example 05
+            // Users user01 = new Users();
+            ///* {
+            //     ID = 1,
+            //     permission = new bool[4] { true, false, true, false } // 4 permission
+            // };*/
+
+            // user01.ID = 1; // 4 Bytes
+            // user01.permission[0] = true;  // Read   
+            // user01.permission[1] = false; // Write
+            // user01.permission[2] = true;  // execute 
+            // user01.permission[3] = false; // Delete 
+            //                               // 4Bytes for all permission  
+            // Users User02 = new Users();
+
+            // User02.ID = 2;
+            // User02.permission[0] = true;  // Read   
+            // User02.permission[1] = true;  // Write  
+            // User02.permission[2] = false; // execute    
+            // User02.permission[3] = false; // Delete 
+
+
+            //Users user01 = new Users();
+            // user01.ID = 1;
+            //user01.permission = (Permission)4;
+
+            //Console.WriteLine(user01.permission);
+
+
+            //Users user02 = new Users();
+
+            //user02.ID = 2;
+            //user02.permission = (Permission)10;
+
+            //Console.WriteLine(user02.permission);
+
+
+
+            //Users user03 = new Users();
+
+            //user03.ID = 2;
+            //user03.permission = (Permission)7;
+
+            //Console.WriteLine(user03.permission);
+
+
+            //Users user03 = new Users();
+
+            //user03.ID = 2;
+            //user03.permission = (Permission)3;
+
+            //Console.WriteLine(user03.permission);
+
+
+            //user03.permission =user03.permission ^ Permission.write; // 
+
+            //Console.WriteLine(user03.permission);  // remove write permission    becouse it exists  
+
+
+           // user03.permission = user03.permission ^ Permission.delete; // add delete permission 
+
+            //Console.WriteLine(user03.permission);
+
+
+            //user03.permission &= Permission.delete;
+            // Console.WriteLine(user03.permission);
+
+
+            //user03.permission &= Permission.execute;
+            //Console.WriteLine(user03.permission);
+
+
+            //if ((user03.permission & Permission.delete )== Permission.delete) 
+            //{
+            //    Console.WriteLine("User has delete permission");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("User does not have delete permission");
+
+
+            //}
+
+
+
+
+            //bool hasPermission = user03.permission.HasFlag(Permission.execute);
+
+            //if (hasPermission)
+            //{
+            //    Console.WriteLine("User has execute permission");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("User does not have execute permission");
+
+            //}
+            //user03.permission |= Permission.execute;
+            //Console.WriteLine(user03.permission);
+
+            //user03.permission |= Permission.delete;
+            //Console.WriteLine(user03.permission);
 
 
 
