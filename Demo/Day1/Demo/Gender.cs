@@ -8,10 +8,10 @@ namespace Demo
 {
     internal enum Gender
     {
-        female = 1  ,
+        Female = 1  ,
         Male = 2 ,
-        f = 1,
-        M = 2  
+        F ,f = 1,
+        M ,m = 2  
 
     }
 }
