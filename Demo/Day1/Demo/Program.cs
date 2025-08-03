@@ -60,6 +60,23 @@ namespace Demo
 
             #endregion
 
+            #region Example03
+
+            //Student student01 = new Student()
+            //{
+            //   ID = 5 , //store in 4bytes
+                      
+            //    Name = "Ali",    // in 8 Byte
+            //     Gender= Gender.Male, // 4bytes
+            //    Grade = Grades.A, // 4bytes
+            //    Branches = Branches.Dokki  //1byte
+
+            //};
+
+
+
+            #endregion
+
 
             #endregion
 
