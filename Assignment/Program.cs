@@ -9,6 +9,13 @@ namespace Assignment
             #region Q1
             //1.	Create an Enum called "WeekDays" with the days of the week (Monday to Sunday) as its members. Then, write a C# program that prints out all the days of the week using this Enum.
 
+            //foreach (WeekDays day in Enum.GetValues(typeof(WeekDays)))
+            //{
+            //    Console.WriteLine(day);
+            //}
+
+
+
 
             //WeekDays Days = new WeekDays();
 
@@ -166,7 +173,7 @@ namespace Assignment
             //    isParsedColor = Enum.TryParse(Console.ReadLine(), true, out color);
 
             //}while(!isParsedColor) ;
-        
+
             //if (color == Colors.Red) 
             //    Console.WriteLine("Red is a primary color.");
             //else if (color == Colors.Green) 
